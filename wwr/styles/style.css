@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -9,6 +11,7 @@ nav a {
 }
 #hero-msg, #hero-msg h4 {
     text-align: center;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
 }
 .button-box {
     text-align: center;
@@ -21,18 +24,27 @@ main section {
 }
 body {
     background-color: #023047;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color: #023047;
+    font-family: Gayathri, sans-serif;
 }
 nav a:hover {
     background-color: #FB8500;
     color: #219EBC;
+    padding: 35px;
 }
 .book, .join {
     background-color: #023047;
     color: #FB8500;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #FB8500;
@@ -43,38 +55,84 @@ nav a:hover {
 }
 .msg {
     background-color: #023047;
+    line-height: 1.5em;
 }
 footer {
     background-color: #023047;
+    font-family: Gayathri, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #FB8500;
+    font-family: Gayathri, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #FB8500;
+    font-family: Gayathri, sans-serif;
 }
 .msg h2 {
     color:#FB8500; 
+    font-family: Gayathri, sans-serif;
 }
 .msg p {
-    color: #FB8500
+    color: #FB8500;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #FB8500;
+    font-family: Gayathri, sans-serif;
 }
 footer a {
     color: #FB8500;
     text-decoration: none;
+    font-family: Gayathri, sans-serif;
 }
 footer a:hover {
     color: #219EBC;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
 }
 footer h3 a {
     text-decoration: underline;
+    font-family: Gayathri, sans-serif;
+}
+#hero-img {
+    width: 100%;
+}
+main h2 {
+    font-family: Gayathri, sans-serif;
+}
+.msg {
+    font-family: Gayathri, sans-serif;
+    padding: 35px;
+}
+h2{
+    margin: 0;
+}
+.home-grid {
+    color: #219EBC;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
