@@ -324,15 +324,23 @@ footer {
     grid-template-columns: 2fr 1fr;
     box-shadow: 5px 5px 10px darkgray;
 }
-.encounters img {
+.encounters header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.encounter-img-1 {
     float: right;
     grid-column: 2/3;
+    grid-row: 2/3;
 }
 .encounter-img-2 {
     margin-bottom: 30px;
-    margin-top: -400px;
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
 .encounters p {
     text-align: justify;
     grid-column: 1/2;
+    grid-row: 2/4;
+    margin-right: 10px;
 }
