@@ -210,11 +210,7 @@ footer {
     opacity: .6;
     transform: scale(1.1);
 }
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
+
     nav, footer {
         flex-direction: column;
     }
@@ -250,7 +246,7 @@ footer {
     footer {
         margin-top: 25px;
     }
-}
+
 /*CSS for Child Page*/
 .blog-title {
     color:#FB8500;
@@ -343,4 +339,10 @@ footer {
     grid-column: 1/2;
     grid-row: 2/4;
     margin-right: 10px;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid, .blog-grid {
+        display: block;
+        height: auto;
+    }
 }
