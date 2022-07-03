@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Shadows+Into+Light&display=swap');
+body {
+    background-color: #708D81;
+}
+nav, footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #001427;
+    font-family: 'Shadows Into Light Two', cursive;
+    background-color: white;
+    border: 5px solid #8D0801;
+}
+nav {
+    justify-items: center;
+    align-items: center;
+    color: #8D0801;
+}
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+    color: #8D0801;
+}
+nav img {
+    grid-area: 1;
+}
+nav p {
+    font-size: larger;
+}
+.hero {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    border: 5px solid #8D0801;
+    margin-top: 20px;
+}
+.site-name {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #001427;
+    position: absolute;
+    margin-top: 50px;
+    justify-self: center;
+    text-align: center;
+    background-color: #708D81;
+    padding: 20px;
+    border: 5px solid #8D0801;
+}
+.bench {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    border: 5px solid #8D0801;
+}
+.user-info {
+    font-family: Lato, sans-serif;
+    background-color: #001427;
+    padding: 30px;
+    color: #708D81;
+    border: 5px solid #8D0801;
+    margin-top: 20px;
+}
+.user-info img {
+    width: 400px;
+    float: right;
+    border: 5px solid #8D0801;
+}
+/*CSS for sign-up page*/
+.user-info img {
+    float: right;
+    margin-top: -75px;
+    margin-left: 20px;
+}
+.user-info {
+    position: relative;
+}
+.form-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    border: 5px solid #8D0801;
+    background-color: #F4D58D;
+}
+.form {
+    grid-area: 1;
+    font-size: 20px;
+    margin-left: 25%;
+}
+.form li {
+    padding: 10px;
+}
+.form-img img {
+    border: 5px solid #8D0801;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+/*CSS for about-us page*/
+.about {
+    border: 5px solid #8D0801;
+    background-color:#F4D58D;
+    color:#001427;
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    margin-top: 20px;
+}
+.origin {
+    border: 5px solid #8D0801;
+    background-color: #001427;
+    color:#708D81;
+    height: 250px;
+    margin-top: 20px;
+}
+.origin img {
+    float: right;
+    margin-top: -60px;
+    margin-right: 20px;
+    border: 5px solid #8D0801;
+}
+.origin h3 {
+    font-size: 25px;
+}
+.origin p {
+    position: relative;
+    font-size: larger;
+}
+.important {
+    border: 5px solid #8D0801;
+    background-color: #001427;
+    color:#708D81;
+    margin-top: 20px;
+}
+.important h3 {
+    font-size: 25px;
+}
+.important p {
+    position: relative;
+    font-size: larger;
+}
+.share {
+    border: 5px solid #8D0801;
+    background-color: #001427;
+    color:#708D81;
+    margin-top: 20px;
+    height:250px;
+}
+.share img {
+    float: right;
+    margin-top: -60px;
+    margin-right: 20px;
+    border: 5px solid #8D0801;
+}
+.share h3 {
+    font-size: 25px;
+}
+.share p, a {
+    position: relative;
+    font-size: larger;
+}
+.suggestions {
+    border: 5px solid #8D0801;
+    background-color: #001427;
+    color:#708D81;
+    margin-top: 20px;
+}
+.suggestions h3 {
+    font-size: 25px;
+}
+.suggestions p {
+    position: relative;
+    font-size: larger;
+}
