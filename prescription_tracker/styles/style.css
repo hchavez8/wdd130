@@ -74,6 +74,7 @@ nav p {
 }
 .user-info {
     position: relative;
+    font-family: Lato, sans-serif;
 }
 .form-img {
     display: grid;
@@ -86,6 +87,7 @@ nav p {
     grid-area: 1;
     font-size: 20px;
     margin-left: 25%;
+    font-family: Lato, sans-serif;
 }
 .form li {
     padding: 10px;
@@ -119,10 +121,12 @@ nav p {
 }
 .origin h3 {
     font-size: 25px;
+    font-family: Lato, sans-serif;
 }
 .origin p {
     position: relative;
     font-size: larger;
+    font-family: Lato, sans-serif;
 }
 .important {
     border: 5px solid #8D0801;
@@ -132,10 +136,12 @@ nav p {
 }
 .important h3 {
     font-size: 25px;
+    font-family: Lato, sans-serif;
 }
 .important p {
     position: relative;
     font-size: larger;
+    font-family: Lato, sans-serif;
 }
 .share {
     border: 5px solid #8D0801;
@@ -152,10 +158,12 @@ nav p {
 }
 .share h3 {
     font-size: 25px;
+    font-family: Lato, sans-serif;
 }
 .share p, a {
     position: relative;
     font-size: larger;
+    font-family: Lato, sans-serif;
 }
 .suggestions {
     border: 5px solid #8D0801;
@@ -169,4 +177,5 @@ nav p {
 .suggestions p {
     position: relative;
     font-size: larger;
+    font-family: Lato, sans-serif;
 }
