@@ -11,6 +11,9 @@ nav, footer {
     background-color: white;
     border: 5px solid #8D0801;
 }
+nav a, footer a {
+    text-decoration: none;
+}
 nav {
     justify-items: center;
     align-items: center;
@@ -61,6 +64,9 @@ nav p {
     border: 5px solid #8D0801;
     margin-top: 20px;
 }
+.users, .who, .most, .worries {
+    font-family: 'Shadows Into Light Two', cursive;
+}
 .user-info img {
     width: 400px;
     float: right;
@@ -71,6 +77,9 @@ nav p {
     float: right;
     margin-top: -75px;
     margin-left: 20px;
+}
+.user-info h1, h3 {
+    font-family: 'Shadows Into Light Two', cursive;
 }
 .user-info {
     position: relative;
@@ -85,12 +94,21 @@ nav p {
 }
 .form {
     grid-area: 1;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 25%;
     font-family: Lato, sans-serif;
+    margin-top: 20px;
+    background-color: #001427;
+    margin-bottom: 20px;
 }
-.form li {
+form li {
     padding: 10px;
+    color:#708D81;
+}
+.form p {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: larger;
+    color:#708D81;
 }
 .form-img img {
     border: 5px solid #8D0801;
@@ -105,7 +123,7 @@ form {
   }
   
   /* Full-width inputs */
-  input[type=text], input[type=password] {
+  .container input[type=text], input[type=password] {
     width: 25%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -113,7 +131,11 @@ form {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
-  
+  .psw a {
+    text-decoration: none;
+    color: #001427;
+    font-size: medium;
+  }
   /* Set a style for all buttons */
   button {
     background-color: #8D0801;
