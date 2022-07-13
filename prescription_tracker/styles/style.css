@@ -275,3 +275,57 @@ form {
       width: 100%;
     }
 }
+@media only screen and (max-width: 600px) {
+    body {
+    display: block;
+    font-size: 15px;
+    }
+    .container {
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    .hero img, .user-info img {
+        display: none;
+    }
+    .hero {
+        height: 350px;
+    }
+    img {
+        width: auto;
+    }
+    .site-name {
+        width: 100px;
+        justify-self: center;
+        align-self: top;
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    footer {
+        display: block;
+    }
+    .leaves {
+        display: none;
+    }
+    .form-img form {
+        width: 300px;
+        display: block;
+        background-color: #001427;
+        justify-items: center;
+        align-items: center;
+        margin-left: -10px;
+    }
+    .form-img input {
+        display: block;
+    }
+    .about h1 {
+        width: auto;
+        font-size: 20px;
+    }
+    .origin img, .share img {
+        display: none;
+    }
+    .share a {
+        font-size:small;
+    }
+}
