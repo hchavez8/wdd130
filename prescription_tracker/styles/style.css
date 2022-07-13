@@ -265,6 +265,18 @@ form {
     font-size: larger;
     font-family: Lato, sans-serif;
 }
+.origin h3 {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.important h3 {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.share h3 {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.suggestions h3 {
+    font-family: 'Shadows Into Light Two', cursive;
+}
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
