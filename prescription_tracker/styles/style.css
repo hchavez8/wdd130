@@ -85,25 +85,41 @@ nav p {
     position: relative;
     font-family: Lato, sans-serif;
 }
+.user-info h1, h3, p {
+    padding: 10px;
+}
 .form-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 20px;
     border: 5px solid #8D0801;
     background-color: #F4D58D;
+    padding: 0 5%;
 }
 .form {
     grid-area: 1;
     font-size: 15px;
-    margin-left: 25%;
     font-family: Lato, sans-serif;
     margin-top: 20px;
     background-color: #001427;
     margin-bottom: 20px;
+    max-width:fit-content;
+    border: 5px solid #8D0801;
+}
+.form p {
+    text-align: center;
+}
+li {
+    text-align: right;
+}
+form input {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 form li {
     padding: 10px;
     color:#708D81;
+    list-style: none;
 }
 .form p {
     font-family: 'Shadows Into Light Two', cursive;
@@ -117,7 +133,6 @@ form li {
 }
 /* Bordered form */
 form {
-    border: 5px solid #8D0801;
     font-family: Lato, sans-serif;
     color: #001427;
   }
@@ -182,6 +197,10 @@ form {
     padding-top: 16px;
     font-size: medium;
   }
+#content {
+    max-width: 90%;
+    margin: 0 auto;
+}
 
 /*CSS for about-us page*/
 .about {
@@ -191,6 +210,10 @@ form {
     text-align: center;
     font-family: 'Shadows Into Light Two', cursive;
     margin-top: 20px;
+}
+#all {
+    max-width: 90%;
+    margin: 0 auto;
 }
 .origin {
     border: 5px solid #8D0801;
@@ -208,11 +231,13 @@ form {
 .origin h3 {
     font-size: 25px;
     font-family: Lato, sans-serif;
+    padding: 0px 10px 0px 30px;
 }
 .origin p {
     position: relative;
     font-size: larger;
     font-family: Lato, sans-serif;
+    padding: 0px 10px 0px 30px;
 }
 .important {
     border: 5px solid #8D0801;
@@ -223,11 +248,13 @@ form {
 .important h3 {
     font-size: 25px;
     font-family: Lato, sans-serif;
+    padding: 0px 10px 0px 30px;
 }
 .important p {
     position: relative;
     font-size: larger;
     font-family: Lato, sans-serif;
+    padding: 0px 10px 0px 30px;
 }
 .share {
     border: 5px solid #8D0801;
@@ -245,11 +272,13 @@ form {
 .share h3 {
     font-size: 25px;
     font-family: Lato, sans-serif;
+    padding: 0px 10px 0px 30px;
 }
 .share p, a {
     position: relative;
     font-size: larger;
     font-family: Lato, sans-serif;
+    padding: 0px 10px 0px 30px;
 }
 .suggestions {
     border: 5px solid #8D0801;
@@ -259,11 +288,13 @@ form {
 }
 .suggestions h3 {
     font-size: 25px;
+    padding: 0px 10px 0px 30px;
 }
 .suggestions p {
     position: relative;
     font-size: larger;
     font-family: Lato, sans-serif;
+    padding: 0px 10px 0px 30px;
 }
 .origin h3 {
     font-family: 'Shadows Into Light Two', cursive;
@@ -308,7 +339,6 @@ form {
     .site-name {
         width: 100px;
         justify-self: center;
-        align-self: top;
         font-size: 15px;
         margin-top: 10px;
         padding: 5px;
